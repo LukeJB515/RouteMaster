@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\materialstoload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\materialstoload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\individualvehicleequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\individualvehicleequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\materialstoload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\materialstoload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,33 +32,33 @@
               "RelativeDocumentMoniker": "RouteMaster\\DomainLayer\\Entities\\IndividualVehicleEquipment.cs",
               "ToolTip": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\IndividualVehicleEquipment.cs",
               "RelativeToolTip": "RouteMaster\\DomainLayer\\Entities\\IndividualVehicleEquipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T01:25:59.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MaterialsToLoad.cs",
               "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\MaterialsToLoad.cs",
               "RelativeDocumentMoniker": "RouteMaster\\DomainLayer\\Entities\\MaterialsToLoad.cs",
               "ToolTip": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\MaterialsToLoad.cs",
               "RelativeToolTip": "RouteMaster\\DomainLayer\\Entities\\MaterialsToLoad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T01:17:31.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\Vehicle.cs",
               "RelativeDocumentMoniker": "RouteMaster\\DomainLayer\\Entities\\Vehicle.cs",
               "ToolTip": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\Vehicle.cs",
               "RelativeToolTip": "RouteMaster\\DomainLayer\\Entities\\Vehicle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T01:16:46.196Z",
               "EditorCaption": ""

@@ -4,8 +4,9 @@
     {
         public int CargoId { get; set; }
 
-        public string Name { get; set; }
-        public string Category { get; set; }
+        public string? Name { get; set; }
+        public string? Category { get; set; }
+        public string? Manufacturer { get; set; }
 
         public decimal Weight { get; set; }
         public decimal Cost { get; set; }
