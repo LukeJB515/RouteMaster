@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ApplicationLayer\Services\" />
     <Folder Include="Infrastructure\Data\DbContext\" />
     <Folder Include="Infrastructure\Data\Repositories\" />
     <Folder Include="Web\Controllers\" />
