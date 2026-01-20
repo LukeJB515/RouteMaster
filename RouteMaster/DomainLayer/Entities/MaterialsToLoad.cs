@@ -12,5 +12,7 @@
         public decimal Cost { get; set; }
 
         public int Quantity { get; set; }
+
+        public ICollection<RouteAssignmentMaterial>? RouteAssignmentMaterials { get; set; }
     }
 }

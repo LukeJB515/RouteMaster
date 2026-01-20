@@ -22,5 +22,10 @@
 
         public DateTime AssignedAt { get; set; }
         public bool IsCompleted { get; set; }
+
+        public ICollection<RouteAssignmentMaterial>? RouteAssignmentMaterials { get; set; }
+
+        public int? ConvoyId { get; set; }
+        public Convoy? Convoy { get; set; }
     }
 }
