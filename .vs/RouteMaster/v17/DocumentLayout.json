@@ -46,8 +46,7 @@
               "RelativeToolTip": "RouteMaster\\Maintenance\\MaintenanceIntervals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T22:27:38.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T22:27:38.298Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "RouteMaster\\Maintenance\\MaintenanceEvaluationResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T22:14:03.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T22:14:03.82Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "RouteMaster\\ApplicationLayer\\Services\\MileageFinalizationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T18:27:16.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T18:27:16.363Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "RouteMaster\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:35:36.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T16:35:36.147Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "RouteMaster\\DomainLayer\\Entities\\IndividualVehicleEquipment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T01:25:59.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T01:25:59.065Z"
             }
           ]
         }

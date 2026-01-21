@@ -14,7 +14,7 @@ namespace RouteMaster.ApplicationLayer.Services
 
         public void FinalizeRouteAssignment(int routeAssignmentId)
         {
-            var assignment = _context.RouteAssignments
+            var assignment = _context?.RouteAssignments
                 .Include(ra => ra.Route)
                 .Include(ra => ra.Vehicle)
                 .FirstOrDefault(ra => ra.RouteAssignmentId == routeAssignmentId);
@@ -30,7 +30,7 @@ namespace RouteMaster.ApplicationLayer.Services
             assignment.IsCompleted = true;
             assignment.CompletedAt = DateTime.UtcNow;
 
-            _context.SaveChanges();
+            _context?.SaveChanges();
         }
     }
 }
