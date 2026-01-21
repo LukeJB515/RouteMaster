@@ -12,19 +12,22 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
         private readonly MaintenanceEvaluationService? _maintenanceService;
         private readonly BudgetAnalysisService? _budgetService;
         private readonly MaintenanceRecordService? _maintenanceRecordService;
+        private readonly VehicleMileageService? _vehicleMileageService;
         //private readonly MileageFinalizationResult? _mileageResult;
 
         public ConvoyPlanningService(
             MileageFinalizationService? mileageService,
             MaintenanceEvaluationService? maintenanceService,
             BudgetAnalysisService? budgetService,
-            MaintenanceRecordService? maintenanceRecordService/*,
+            MaintenanceRecordService? maintenanceRecordService,
+            VehicleMileageService? vehicleMileageService/*,
             MileageFinalizationResult? mileageResult*/)
         {
             _mileageService = mileageService;
             _maintenanceService = maintenanceService;
             _budgetService = budgetService;
             _maintenanceRecordService = maintenanceRecordService;
+            _vehicleMileageService = vehicleMileageService;
             //_mileageResult = mileageResult;
         }
 
@@ -37,6 +40,10 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
             var mileageResult = _mileageService.FinalizeMileage(
                 vehicle.CurrentMileage,
                 routeAssignment.Route.DistanceMiles);
+
+            await _vehicleMileageService.UpdateMileageAsync(
+                vehicle,
+                mileageResult.EndingMileage);
 
             var maintenanceResult = _maintenanceService.Evaluate(
                 mileageResult.EndingMileage,
