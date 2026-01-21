@@ -11,21 +11,24 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
         private readonly MileageFinalizationService? _mileageService;
         private readonly MaintenanceEvaluationService? _maintenanceService;
         private readonly BudgetAnalysisService? _budgetService;
+        private readonly MaintenanceRecordService? _maintenanceRecordService;
         //private readonly MileageFinalizationResult? _mileageResult;
 
         public ConvoyPlanningService(
             MileageFinalizationService? mileageService,
             MaintenanceEvaluationService? maintenanceService,
-            BudgetAnalysisService? budgetService/*,
+            BudgetAnalysisService? budgetService,
+            MaintenanceRecordService? maintenanceRecordService/*,
             MileageFinalizationResult? mileageResult*/)
         {
             _mileageService = mileageService;
             _maintenanceService = maintenanceService;
             _budgetService = budgetService;
+            _maintenanceRecordService = maintenanceRecordService;
             //_mileageResult = mileageResult;
         }
 
-        public ConvoyPlanningResult PlanConvoy(
+        public async Task<ConvoyPlanningResult> PlanConvoyAsync(
             Vehicle vehicle,            
             RouteAssignment routeAssignment,
             IEnumerable<RouteAssignmentMaterial> materials,
@@ -41,6 +44,11 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
                 vehicle.LastBrakeInspectionMileage,
                 vehicle.LastTireInspectionMileage,
                 vehicle.AirHosePressureMileage*/);
+
+            await _maintenanceRecordService.RecordAsync(
+                vehicle,
+                mileageResult.EndingMileage,
+                maintenanceResult);
 
             var budgetResult = _budgetService.Analyze(
                 startingBudget,
