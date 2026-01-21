@@ -1,4 +1,4 @@
-﻿namespace RouteMaster
+﻿namespace RouteMaster.Results
 {
     public class BudgetAnalysisResult
     {

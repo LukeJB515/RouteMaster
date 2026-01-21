@@ -1,11 +1,11 @@
 ﻿using RouteMaster.DomainLayer.Entities;
 using RouteMaster.Maintenance;
 
-namespace RouteMaster.ApplicationLayer.Services
+namespace RouteMaster.ApplicationLayer.Services.Maintenance
 {
     public class MaintenanceEvaluationService
     {
-        public MaintenanceEvaluationResult Evaluate(Vehicle vehicle)
+        public MaintenanceEvaluationResult Evaluate(int currentMileage, Vehicle vehicle)
         {
             var result = new MaintenanceEvaluationResult();
             //this class draws from Vehicles, MaintenanceIntervals and MaintenanceEvaluationResult

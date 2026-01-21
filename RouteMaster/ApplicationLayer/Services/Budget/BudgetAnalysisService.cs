@@ -1,7 +1,8 @@
 ﻿using RouteMaster.DomainLayer.Entities;
 using RouteMaster.Maintenance;
+using RouteMaster.Results;
 
-namespace RouteMaster.ApplicationLayer.Services
+namespace RouteMaster.ApplicationLayer.Services.Budget
 {
     public class BudgetAnalysisService
     {

@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RouteMaster.Data;
+using RouteMaster.Results;
 
-namespace RouteMaster.ApplicationLayer.Services
+namespace RouteMaster.ApplicationLayer.Services.Mileage
 {
     public class MileageFinalizationService
     {
@@ -31,6 +32,18 @@ namespace RouteMaster.ApplicationLayer.Services
             assignment.CompletedAt = DateTime.UtcNow;
 
             _context?.SaveChanges();
+        }
+
+        public MileageFinalizationResult FinalizeMileage(
+            int currentMileage,
+            int distanceMiles)
+        {
+            return new MileageFinalizationResult
+            {
+                StartingMileage = currentMileage,
+                DistanceTraveled = distanceMiles,
+                EndingMileage = currentMileage + distanceMiles
+            };
         }
     }
 }
