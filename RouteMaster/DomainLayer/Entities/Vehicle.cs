@@ -26,6 +26,6 @@
         //materials loaded onto vehicle's trailer....
         //for instance, vehicle equipment could relate to spare tire or fire extinguisher, etc
         //materials loaded onto trailer relate more to goods being shipped.
-        public ICollection<MaintenanceRecord>? MaintenanceRecords { get; set; }
+        public ICollection<MaintenanceRecord>? MaintenanceRecords { get; set; } = new List<MaintenanceRecord>();
     }
 }
