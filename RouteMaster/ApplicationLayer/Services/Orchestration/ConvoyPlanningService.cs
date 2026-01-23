@@ -1,6 +1,7 @@
 ﻿using RouteMaster.ApplicationLayer.Services.Budget;
 using RouteMaster.ApplicationLayer.Services.Maintenance;
 using RouteMaster.ApplicationLayer.Services.Mileage;
+using RouteMaster.Data;
 using RouteMaster.DomainLayer.Entities;
 using RouteMaster.Results;
 
@@ -8,6 +9,7 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
 {
     public class ConvoyPlanningService
     {
+        private readonly ApplicationDbContext _dbContext;
         private readonly MileageFinalizationService? _mileageService;
         private readonly MaintenanceEvaluationService? _maintenanceService;
         private readonly BudgetAnalysisService? _budgetService;
@@ -16,6 +18,7 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
         //private readonly MileageFinalizationResult? _mileageResult;
 
         public ConvoyPlanningService(
+            ApplicationDbContext dbContext,
             MileageFinalizationService? mileageService,
             MaintenanceEvaluationService? maintenanceService,
             BudgetAnalysisService? budgetService,
@@ -23,6 +26,7 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
             VehicleMileageService? vehicleMileageService/*,
             MileageFinalizationResult? mileageResult*/)
         {
+            _dbContext = dbContext;
             _mileageService = mileageService;
             _maintenanceService = maintenanceService;
             _budgetService = budgetService;
@@ -32,7 +36,8 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
         }
 
         public async Task<ConvoyPlanningResult> PlanConvoyAsync(
-            Vehicle vehicle,            
+            Vehicle vehicle,
+            Convoy convoy,
             RouteAssignment routeAssignment,
             IEnumerable<RouteAssignmentMaterial> materials,
             decimal startingBudget)
@@ -62,6 +67,8 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
                 routeAssignment,
                 materials,
                 maintenanceResult);
+            
+            await _dbContext.SaveChangesAsync();
 
             return new ConvoyPlanningResult
             {
