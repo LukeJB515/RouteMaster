@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\applicationlayer\\services\\orchestration\\convoycreationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\applicationlayer\\services\\orchestration\\convoycreationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\convoyvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\convoyvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\convoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\convoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\applicationlayer\\services\\orchestration\\convoyplanningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\applicationlayer\\services\\orchestration\\convoyplanningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\applicationlayer\\services\\mileage\\vehiclemileageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\applicationlayer\\services\\mileage\\vehiclemileageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|c:\\users\\lukee\\onedrive\\desktop\\console apps\\webapps\\routemaster\\routemaster\\routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ACF5A7A-00E8-4912-930A-5072354AAE1A}|RouteMaster\\RouteMaster.csproj|solutionrelative:routemaster\\domainlayer\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ConvoyPlanningService.cs",
               "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\ApplicationLayer\\Services\\Orchestration\\ConvoyPlanningService.cs",
               "RelativeDocumentMoniker": "RouteMaster\\ApplicationLayer\\Services\\Orchestration\\ConvoyPlanningService.cs",
@@ -35,12 +51,60 @@
               "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T15:21:13.809Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConvoyCreationService.cs",
+              "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\ApplicationLayer\\Services\\Orchestration\\ConvoyCreationService.cs",
+              "RelativeDocumentMoniker": "RouteMaster\\ApplicationLayer\\Services\\Orchestration\\ConvoyCreationService.cs",
+              "ToolTip": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\ApplicationLayer\\Services\\Orchestration\\ConvoyCreationService.cs",
+              "RelativeToolTip": "RouteMaster\\ApplicationLayer\\Services\\Orchestration\\ConvoyCreationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T01:36:42.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RouteMaster\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RouteMaster\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T01:24:53.005Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ConvoyVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\ConvoyVehicle.cs",
+              "RelativeDocumentMoniker": "RouteMaster\\DomainLayer\\Entities\\ConvoyVehicle.cs",
+              "ToolTip": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\ConvoyVehicle.cs",
+              "RelativeToolTip": "RouteMaster\\DomainLayer\\Entities\\ConvoyVehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T01:17:10.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Convoy.cs",
+              "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\Convoy.cs",
+              "RelativeDocumentMoniker": "RouteMaster\\DomainLayer\\Entities\\Convoy.cs",
+              "ToolTip": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\DomainLayer\\Entities\\Convoy.cs",
+              "RelativeToolTip": "RouteMaster\\DomainLayer\\Entities\\Convoy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T01:13:03.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "VehicleMileageService.cs",
               "DocumentMoniker": "C:\\Users\\lukee\\OneDrive\\Desktop\\Console Apps\\WebApps\\RouteMaster\\RouteMaster\\RouteMaster\\ApplicationLayer\\Services\\Mileage\\VehicleMileageService.cs",
               "RelativeDocumentMoniker": "RouteMaster\\ApplicationLayer\\Services\\Mileage\\VehicleMileageService.cs",

@@ -1,4 +1,6 @@
-﻿namespace RouteMaster.DomainLayer.Entities
+﻿using RouteMaster.ApplicationLayer.Services;
+
+namespace RouteMaster.DomainLayer.Entities
 {
     public class Route
     {

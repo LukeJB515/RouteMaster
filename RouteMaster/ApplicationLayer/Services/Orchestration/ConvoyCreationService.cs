@@ -2,6 +2,8 @@
 using RouteMaster.DomainLayer.Entities;
 using Microsoft.AspNetCore.Routing;
 using RouteMaster.Results;
+using Route = RouteMaster.DomainLayer.Entities.Route;
+//using Route = Microsoft.AspNetCore.Routing.Route;
 
 namespace RouteMaster.ApplicationLayer.Services.Orchestration
 {
@@ -16,7 +18,7 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
 
         public async Task<Convoy> CreateAsync(
             string name,
-            //Route route,
+            Route route,
             Vehicle vehicle,
             ConvoyPlanningResult planningResult,
             decimal startingBudget)
@@ -24,7 +26,7 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
             var convoy = new Convoy
             {
                 ConvoyName = name,
-                //RouteId = route.Id,
+                RouteId = route.RouteId,
                 StartingBudget = startingBudget,
                 TotalPlannedCost = planningResult.BudgetResult.TotalCost,
                 IsOverBudget = planningResult.BudgetResult.IsOverBudget
