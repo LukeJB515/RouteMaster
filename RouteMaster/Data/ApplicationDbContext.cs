@@ -24,6 +24,7 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<RouteAssignmentMaterial> RouteAssignmentMaterials { get; set; }
 
     public DbSet<Convoy> Convoys { get; set; }
+    public DbSet<ConvoyVehicle> ConvoyVehicles { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -70,5 +71,17 @@ public class ApplicationDbContext : IdentityDbContext
             .WithMany()
             .HasForeignKey(ra => ra.ConvoyId)
             .OnDelete(DeleteBehavior.SetNull);
+
+        builder.Entity<Convoy>()
+            .HasMany(c => c.Vehicles)
+            .WithOne(cv => cv.Convoy)
+            .HasForeignKey(cv => cv.ConvoyId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Entity<ConvoyVehicle>()
+            .HasOne(cv => cv.Vehicle)
+            .WithMany()
+            .HasForeignKey(cv => cv.VehicleId)
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }
