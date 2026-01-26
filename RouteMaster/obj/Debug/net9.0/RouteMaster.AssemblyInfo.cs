@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RouteMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b1fe65c6ef0d26cdeb1f9d38fe44e09a9b85593")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69621e9acd96c254e89b88f110d957126ac94a5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("RouteMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RouteMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

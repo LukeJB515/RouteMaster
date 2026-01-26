@@ -72,16 +72,29 @@ public class ApplicationDbContext : IdentityDbContext
             .HasForeignKey(ra => ra.ConvoyId)
             .OnDelete(DeleteBehavior.SetNull);
 
-        builder.Entity<Convoy>()
-            .HasMany(c => c.Vehicles)
+        builder.Entity<Convoy>(convoy =>
+        {
+            convoy.HasKey(c => c.ConvoyId);
+
+            convoy.HasMany<ConvoyVehicle>()
             .WithOne(cv => cv.Convoy)
             .HasForeignKey(cv => cv.ConvoyId)
             .OnDelete(DeleteBehavior.Cascade);
+        });
 
-        builder.Entity<ConvoyVehicle>()
-            .HasOne(cv => cv.Vehicle)
+        builder.Entity<ConvoyVehicle>(cv =>
+        {
+            cv.HasKey(x => new { x.ConvoyId, x.VehicleId });
+
+            cv.HasOne(x => x.Vehicle)
             .WithMany()
-            .HasForeignKey(cv => cv.VehicleId)
-            .OnDelete(DeleteBehavior.Restrict);
+            .HasForeignKey(x => x.VehicleId);
+        });
+
+        //builder.Entity<ConvoyVehicle>()
+        //    .HasOne(cv => cv.Vehicle)
+        //    .WithMany()
+        //    .HasForeignKey(cv => cv.VehicleId)
+        //    .OnDelete(DeleteBehavior.Restrict);
     }
 }

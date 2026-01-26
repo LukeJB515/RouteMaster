@@ -2,6 +2,17 @@
 {
     public class ConvoyVehicle
     {
+        //protected ConvoyVehicle() { }
+
+        //public ConvoyVehicle(Convoy convoy, Vehicle vehicle)
+        //{
+        //    Convoy = convoy ?? throw new ArgumentNullException(nameof(convoy));
+        //    Vehicle = vehicle ?? throw new ArgumentNullException(nameof(vehicle));
+
+        //    ConvoyId = convoy.ConvoyId;
+        //    VehicleId = vehicle.VehicleId;
+        //}
+
         public int Id { get; set; }
 
         public int ConvoyId { get; set; }

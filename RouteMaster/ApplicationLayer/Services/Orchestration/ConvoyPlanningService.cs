@@ -81,5 +81,23 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
                 BudgetResult = budgetResult
             };
         }
+
+        //below is just code I will be testing out later
+        //following methods have yet to be defined: Finalize, EvaluateAndPersist,
+        //Evaluate (in the Budget Services class, and Success.
+        //public async Task<ConvoyPlanningResult> PlanAsync(Convoy convoy)
+        //{
+        //    convoy.ValidateForPlanning();
+
+        //    _mileageService.Finalize(convoy);
+        //    _maintenanceService.EvaluateAndPersist(convoy);
+        //    _budgetService.Evaluate(convoy);
+
+        //    convoy.MarkPlanned();
+
+        //    await _dbContext.SaveChangesAsync();
+
+        //    return ConvoyPlanningResult.Success(convoy.ConvoyId);
+        //}
     }
 }
