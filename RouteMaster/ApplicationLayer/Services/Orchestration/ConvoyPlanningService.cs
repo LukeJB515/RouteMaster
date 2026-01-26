@@ -42,6 +42,8 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
             IEnumerable<RouteAssignmentMaterial> materials,
             decimal startingBudget)
         {
+            convoy.ValidateForPlanning();
+
             var mileageResult = _mileageService.FinalizeMileage(
                 vehicle.CurrentMileage,
                 routeAssignment.Route.DistanceMiles);
@@ -67,7 +69,9 @@ namespace RouteMaster.ApplicationLayer.Services.Orchestration
                 routeAssignment,
                 materials,
                 maintenanceResult);
-            
+
+            convoy.MarkPlanned();
+
             await _dbContext.SaveChangesAsync();
 
             return new ConvoyPlanningResult

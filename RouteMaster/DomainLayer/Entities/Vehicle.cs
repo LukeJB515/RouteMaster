@@ -27,5 +27,13 @@
         //for instance, vehicle equipment could relate to spare tire or fire extinguisher, etc
         //materials loaded onto trailer relate more to goods being shipped.
         public ICollection<MaintenanceRecord>? MaintenanceRecords { get; set; } = new List<MaintenanceRecord>();
+
+        public void UpdateMileage(int newMileage)
+        {
+            if (newMileage < CurrentMileage)
+                throw new InvalidOperationException("Vehicle mileage cannot decrese.");
+
+            CurrentMileage = newMileage;
+        }
     }
 }
